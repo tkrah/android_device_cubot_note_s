@@ -12,6 +12,6 @@ $(call inherit-product, device/cubot/note_s/device_note_s.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := note_s
 PRODUCT_NAME := cm_note_s
-PRODUCT_BRAND := CUBOT
+PRODUCT_BRAND := cubot
 PRODUCT_MODEL := note_s
-PRODUCT_MANUFACTURER := CUBOT
+PRODUCT_MANUFACTURER := cubot
