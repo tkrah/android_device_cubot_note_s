@@ -1,6 +1,6 @@
 # mt6580 platform boardconfig
-LOCAL_PATH := device/cubot/note_s
--include vendor/cubot/note_s/BoardConfigVendor.mk
+LOCAL_PATH := device/cubot/notes
+-include vendor/cubot/notes/BoardConfigVendor.mk
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -132,7 +132,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS := \
-       device/cubot/note_s/sepolicy
+       device/cubot/notes/sepolicy
 
 # Hack for building without kernel sources
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)

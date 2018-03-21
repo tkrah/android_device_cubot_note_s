@@ -2,17 +2,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/cubot/note_s/device.mk)
+$(call inherit-product, device/cubot/notes/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := note_s
+PRODUCT_RELEASE_NAME := notes
 
 EXTENDED_FONT_FOOTPRINT := true
 
-PRODUCT_DEVICE := note_s
-PRODUCT_NAME := full_note_s
+PRODUCT_DEVICE := notes
+PRODUCT_NAME := full_notes
 PRODUCT_BRAND := cubot
-PRODUCT_MODEL := note_s
+PRODUCT_MODEL := notes
 PRODUCT_MANUFACTURER := cubot
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
