@@ -55,6 +55,9 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
+# Tap to Wake
+#TARGET_TAP_TO_WAKE_NODE := "/sys/class/tpd_gesture/gesture_mode"
+
 # Flags
 TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
