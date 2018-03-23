@@ -1,5 +1,6 @@
 
 LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 
 LOCAL_JAVA_LIBRARIES := bouncycastle
@@ -23,6 +24,14 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libpq_cust
+LOCAL_SRC_FILES := lib/libpq_cust.so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PACKAGE_NAME := libpq_cust
+include $(BUILD_PREBUILT)
 
 # Use the folloing include to make our test apk.
 include $(call all-makefiles-under,$(LOCAL_PATH))
