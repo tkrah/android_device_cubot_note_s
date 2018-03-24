@@ -17,9 +17,10 @@ Device Tree for Cubot Note S.
 Info
 ---------------
 
-You can see the result on needrom: 
+You can see the result on needrom:
 https://www.needrom.com/download/lineageos13/
 
 I'll upload all my changes for the ROMs here. 
 
 Next step is to built-in tap2wake for the device. 
+
