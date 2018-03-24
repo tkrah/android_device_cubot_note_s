@@ -6,7 +6,8 @@ Device Tree
 Device Tree for Cubot Note S. 
 
 - MT6580 Device
-- 3.18.19 kernel
+- 3.18.19 Kernel
+- Stock Marshmallow 6.0
 - 5,5" 1280x720
 - 4150MAh
 
