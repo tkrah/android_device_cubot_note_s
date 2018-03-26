@@ -45,6 +45,7 @@ BOARD_MKBOOTIMG_ARGS := --base 0x80000000 --pagesize 2048 --kernel_offset 0x0000
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 
 TARGET_KMODULES := true
+
 # Disable memcpy opt (for audio libraries)
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
 
@@ -54,9 +55,6 @@ BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl.cfg
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
-
-# Tap to Wake
-#TARGET_TAP_TO_WAKE_NODE := "/sys/class/tpd_gesture/gesture_mode"
 
 # Flags
 TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
