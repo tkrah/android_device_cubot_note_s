@@ -171,7 +171,11 @@ PRODUCT_COPY_FILES += \
 	
 # MiraVision
 PRODUCT_PACKAGES += \
-	MiraVision
+    MiraVision
+	
+# EngineerMode
+PRODUCT_PACKAGES += \
+    EngineerMode
  	
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
@@ -236,4 +240,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=8
 
 # Dalvik
-$(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+$(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
