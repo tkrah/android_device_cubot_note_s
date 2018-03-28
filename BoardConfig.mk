@@ -1,7 +1,7 @@
 # mt6580 platform boardconfig
 LOCAL_PATH := device/cubot/notes
 
--include $(LOCAL_PATH)/ProjectConfig.mk
+-include vendor/cubot/notes/BoardConfigVendor.mk
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
