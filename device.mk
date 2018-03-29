@@ -176,6 +176,10 @@ PRODUCT_PACKAGES += \
 # EngineerMode
 PRODUCT_PACKAGES += \
     EngineerMode
+	
+# Power
+PRODUCT_PACKAGES += \
+	power.mt6580
  	
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
