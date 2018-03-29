@@ -27,8 +27,6 @@ wifi.tethering.interface=ap0
 #
 
 wifi.direct.interface=p2p0
-dalvik.vm.heapgrowthlimit=128m
-dalvik.vm.heapsize=256m
 
 # USB MTP WHQL
 ro.sys.usb.mtp.whql.enable=0
