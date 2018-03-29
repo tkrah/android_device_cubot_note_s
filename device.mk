@@ -179,7 +179,7 @@ PRODUCT_PACKAGES += \
 	
 # Power
 PRODUCT_PACKAGES += \
-	power.mt6580
+    power.mt6580
  	
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
