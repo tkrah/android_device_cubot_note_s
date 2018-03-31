@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_notes.mk
+    $(LOCAL_DIR)/device_NOTE_S.mk

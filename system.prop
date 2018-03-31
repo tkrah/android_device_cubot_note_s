@@ -1,6 +1,6 @@
 #
 #
-# system.prop for Cubot Note S
+# system.prop for NOTE_S
 #
 
 rild.libpath=/system/lib/mtk-ril.so

@@ -2,10 +2,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
-$(call inherit-product, device/cubot/notes/vendor/copyfiles.mk)
-$(call inherit-product, vendor/cubot/notes/notes-vendor-blobs.mk)
+$(call inherit-product, device/CUBOT/NOTE_S/vendor/copyfiles.mk)
+$(call inherit-product, vendor/CUBOT/NOTE_S/NOTE_S-vendor-blobs.mk)
 
-LOCAL_PATH := device/cubot/notes
+LOCAL_PATH := device/CUBOT/NOTE_S
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -14,7 +14,7 @@ PRODUCT_AAPT_CONFIG := normal xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := Cubot_notes,Cubot_notes_sprout,Cubot notes,notes
+TARGET_OTA_ASSERT_DEVICE := CUBOT_NOTE_S,CUBOT_NOTE_S_sprout,CUBOT NOTE_S,NOTE_S
 
 PRODUCT_PACKAGES += \
    libxlog
