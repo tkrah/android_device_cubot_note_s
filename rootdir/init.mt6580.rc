@@ -848,9 +848,6 @@ on boot
 # define device for EMCSMDLOGGER
     chmod 0660 /dev/ttyGS3
     chown system radio /dev/ttyGS3
-
-# Gestures
-    chown system system /sys/class/tpd_gesture/gesture_mode	
 	
 on property:vold.decrypt=trigger_reset_main
     start stop_modem

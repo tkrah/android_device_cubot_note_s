@@ -38,10 +38,6 @@ BOARD_CONNECTIVITY_VENDOR := MediaTek
 BOARD_USES_MTK_AUDIO := true
 BOARD_USES_MTK_HARDWARE :=true
 
-# Power and native tap-to-wake
-TARGET_POWERHAL_VARIANT := mtk-xen0n
-TARGET_POWER_SET_FEATURE_LIB := power-feature-mt6580
-
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000

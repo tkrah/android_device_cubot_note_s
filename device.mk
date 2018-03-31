@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
 # Keyboard layout
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
-     $(LOCAL_PATH)/configs/mtk-tpd.kl:system/usr/keylayout/mtk-tpd.kl \
      $(LOCAL_PATH)/configs/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
      $(LOCAL_PATH)/configs/AVRCP.kl:system/usr/keylayout/AVRCP.kl
 
@@ -177,10 +176,6 @@ PRODUCT_PACKAGES += \
 # EngineerMode
 PRODUCT_PACKAGES += \
     EngineerMode
-	
-# Power
-PRODUCT_PACKAGES += \
-    power.mt6580
  	
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
