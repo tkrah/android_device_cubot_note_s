@@ -3,15 +3,13 @@ Cubot Note S
 Device Tree
 ------------------
 
-Device Tree for Cubot Note S. 
+Device Tree for Cubot Note S. Supports Engineer Mode and MiraVision. 
 
 - MT6580 Device
 - 3.18.19 Kernel
 - Stock Marshmallow 6.0
 - 5,5" 1280x720
 - 4150MAh
-
-
 
 
 Info
