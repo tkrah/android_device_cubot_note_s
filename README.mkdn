@@ -6,9 +6,9 @@ Device Tree
 Device Tree for Cubot Note S.
 
 - MT6580 Chipset
-- stock marshmallow 6.0 (3.18.19 Kernel)
+- marshmallow 6.0 (3.18.19 Kernel)
 - 5,5" 1280x720 display
-- 4150MAh battery
+- 4150MAh battery capacity
 - 2GB RAM
 
 Info
