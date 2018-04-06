@@ -3,7 +3,7 @@ Cubot Note S
 Device Tree
 ------------------
 
-Device Tree for Cubot Note S. Supports Engineer Mode and MiraVision. 
+Device Tree for Cubot Note S. Supports MiraVision. 
 
 - MT6580 Chipset
 - 3.18.19 Kernel
