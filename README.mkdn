@@ -1,6 +1,6 @@
 Cubot Note S 
 ===========
-Device Tree
+Device Tree M
 ------------------
 
 Device Tree for Cubot Note S.
