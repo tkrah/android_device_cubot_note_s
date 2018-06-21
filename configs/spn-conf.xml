@@ -122,32 +122,43 @@
 <spnOverride numeric="24801" spn="EE EMT"/>
 <spnOverride numeric="24802" spn="EE elisa"/>
 <spnOverride numeric="24803" spn="TELE2"/>
-<spnOverride numeric="25001" spn="MTS"/>
+<spnOverride numeric="25001" spn="МТС"/>
+<spnOverride numeric="25050" spn="МТС"/>
 <spnOverride numeric="25002" spn="MegaFon"/>
+<spnOverride numeric="25003" spn="NCC"/>
 <spnOverride numeric="25004" spn="RUS_SCN"/>
 <spnOverride numeric="25005" spn="ETK"/>
-<spnOverride numeric="25007" spn="BMT"/>
-<spnOverride numeric="25010" spn="DTC"/>
-<spnOverride numeric="25012" spn="Baykalwestcom"/>
+<spnOverride numeric="25006" spn="SkyLink"/>
+<spnOverride numeric="25007" spn="SMARTS"/>
+<spnOverride numeric="25009" spn="SkyLink"/>
+<spnOverride numeric="25010" spn="ДТК"/>
+<spnOverride numeric="25012" spn="БВК"/>
 <spnOverride numeric="25013" spn="KUGSM"/>
 <spnOverride numeric="25015" spn="SMARTS"/>
 <spnOverride numeric="25016" spn="NTC"/>
 <spnOverride numeric="25017" spn="Utel"/>
 <spnOverride numeric="25019" spn="INDIGO"/>
 <spnOverride numeric="25020" spn="TELE2"/>
-<spnOverride numeric="25028" spn="Beeline"/>
+<spnOverride numeric="25023" spn="Mobicom"/>
+<spnOverride numeric="25028" spn="Билайн"/>
 <spnOverride numeric="25035" spn="MOTIV"/>
 <spnOverride numeric="25037" spn="KODOTEL"/>
+<spnOverride numeric="25038" spn="T-GSM"/>
 <spnOverride numeric="25039" spn="Utel"/>
-<spnOverride numeric="25099" spn="Beeline"/>
-<spnOverride numeric="25501" spn="MTS UKR"/>
+<spnOverride numeric="25091" spn="SonicDuo"/>
+<spnOverride numeric="25099" spn="Билайн"/>
+<spnOverride numeric="25501" spn="Vodafone"/>
 <spnOverride numeric="25502" spn="Beeline"/>
 <spnOverride numeric="25503" spn="Kyivstar"/>
-<spnOverride numeric="25505" spn="GT"/>
-<spnOverride numeric="25506" spn="life:)"/>
-<spnOverride numeric="25507" spn="Utel"/>
+<spnOverride numeric="25504" spn="Intertelecom"/>
+<spnOverride numeric="25505" spn="Golden Telecom"/>
+<spnOverride numeric="25506" spn="lifecell"/>
+<spnOverride numeric="25507" spn="3Mob"/>
+<spnOverride numeric="25521" spn="PEOPLEnet"/>
+<spnOverride numeric="25523" spn="CDMA"/>
+<spnOverride numeric="25525" spn="NEWTONE"/>
 <spnOverride numeric="25701" spn="Velcom"/>
-<spnOverride numeric="25702" spn="MTS"/>
+<spnOverride numeric="25702" spn="МТС"/>
 <spnOverride numeric="25704" spn="life:)"/>
 <spnOverride numeric="25901" spn="Orange MD"/>
 <spnOverride numeric="25902" spn="MDCELL"/>
@@ -260,7 +271,7 @@
 <spnOverride numeric="40002" spn="BKCELL"/>
 <spnOverride numeric="40004" spn="Nar"/>
 <spnOverride numeric="40101" spn="Beeline KZ"/>
-<spnOverride numeric="40102" spn="KZ KCELL"/>
+<spnOverride numeric="40102" spn="Kcell KZ"/>
 <spnOverride numeric="40177" spn="NEO-KZ"/>
 <spnOverride numeric="40211" spn="B-Mobile"/>
 <spnOverride numeric="40277" spn="TashiCell"/>
@@ -469,7 +480,6 @@
 <spnOverride numeric="45429" spn="PCCW"/>
 <spnOverride numeric="45410" spn="CSL"/>
 <spnOverride numeric="45412" spn="CMCC"/>
-<spnOverride numeric="45413" spn="CMCC HK"/>
 <spnOverride numeric="45415" spn="SmarToneVodafone"/>
 <spnOverride numeric="45416" spn="PCCW"/>
 <spnOverride numeric="45418" spn="CSL"/>
@@ -538,12 +548,6 @@
 <spnOverride numeric="51505" spn="SUN"/>
 <spnOverride numeric="51511" spn="ACeS"/>
 <spnOverride numeric="51518" spn="CURE"/>
-<spnOverride numeric="515034" spn="SUN"/>
-<spnOverride numeric="515035" spn="SUN"/>
-<spnOverride numeric="515036" spn="SUN"/>
-<spnOverride numeric="515037" spn="SUN"/>
-<spnOverride numeric="515038" spn="SUN"/>
-<spnOverride numeric="515039" spn="SUN"/>
 <spnOverride numeric="52001" spn="AIS GSM"/>
 <spnOverride numeric="52010" spn="TRUE"/>
 <spnOverride numeric="52015" spn="ACT-1900"/>
@@ -808,7 +812,7 @@
 <spnOverride numeric="302490" spn="WIND"/>
 <spnOverride numeric="302610" spn="Bell"/>
 <spnOverride numeric="302654" spn="SaskTel Mobility"/>
-<spnOverride numeric="302660" spn="MTS "/>
+<spnOverride numeric="302660" spn="МТС "/>
 <spnOverride numeric="302702" spn="MT&amp;T Mobility"/>
 <spnOverride numeric="302703" spn="NewTel Mobility"/>
 <spnOverride numeric="302720" spn="ROGERS"/>
@@ -911,7 +915,6 @@
 <spnOverride numeric="334020" spn="TELCEL"/>
 <spnOverride numeric="334030" spn="movistar"/>
 <spnOverride numeric="334050" spn="Iusacell"/>
-<spnOverride numeric="334090" spn="Nextel"/>
 <spnOverride numeric="338050" spn="Digicel"/>
 <spnOverride numeric="338070" spn="ClaroJam"/>
 <spnOverride numeric="338180" spn="C W"/>
@@ -1072,7 +1075,6 @@
 <spnOverride numeric="405927" spn="uninor"/>
 <spnOverride numeric="405928" spn="uninor"/>
 <spnOverride numeric="405929" spn="uninor"/>
-<spnOverride numeric="405932" spn="Videocon"/>
 <spnOverride numeric="420003" spn="mobily"/>
 <spnOverride numeric="421700" spn="YemYY"/>
 <spnOverride numeric="472002" spn="WATANIYA"/>
@@ -1096,4 +1098,11 @@
 <spnOverride numeric="732123" spn="movistar"/>
 <spnOverride numeric="738002" spn="CLNK PLS"/>
 <spnOverride numeric="750001" spn="C W FLK"/>
+<spnOverride numeric="25011" spn="YOTA"/>
+<spnOverride numeric="25032" spn="WIN"/>
+<spnOverride numeric="25033" spn="Севмобайл"/>
+<spnOverride numeric="25034" spn="Крымтелеком"/>
+<spnOverride numeric="25060" spn="Волна"/>
+<spnOverride numeric="28967" spn="Aquafon"/>
+<spnOverride numeric="28988" spn="А-мобаил"/>
 </spnOverrides>
